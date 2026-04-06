@@ -1,0 +1,200 @@
+/*noinspection CssInvalidPropertyValue */
+:root {
+    accent-color: #4F8CFF;
+}
+
+/* ===== GLOBAL ===== */
+
+.root {
+    -fx-font-family: "Segoe UI";
+}
+
+.accent-text {
+    -fx-text-fill: #4F8CFF;
+}
+
+.accent-bg {
+    -fx-background-color: #4F8CFF;
+}
+
+/* ===== SIDEBAR ===== */
+
+.sidebar {
+    -fx-background-color: #1e1e1e;
+    -fx-padding: 20 10 20 10;
+}
+
+.sidebar-logo {
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.nav-item {
+    -fx-text-fill: #cccccc;
+    -fx-padding: 8 10 8 10;
+    -fx-background-radius: 5;
+}
+
+.nav-item:hover {
+    -fx-text-fill: white;
+    -fx-background-color: #3a3d41;
+}
+
+.nav-item-active {
+    -fx-background-color: #3a3d41;
+    -fx-text-fill: white;
+    -fx-border-color: #4F8CFF;
+    -fx-border-width: 0 0 0 3;
+}
+
+.nav-icon {
+    -fx-icon-color: #cccccc;
+}
+
+.nav-item-active .nav-icon {
+    -fx-icon-color: #4F8CFF;
+}
+
+/* ===== TOP BAR ===== */
+
+.top-bar {
+    -fx-background-color: #252526;
+    -fx-padding: 0 15 0 15;
+}
+
+.top-title {
+    -fx-text-fill: #cccccc;
+    -fx-font-size: 14px;
+}
+
+/* ===== CONTENT ===== */
+
+.content-area {
+    -fx-background-color: #2d2d30;
+}
+
+.license-badge {
+    -fx-background-color: #3a3d41;
+    -fx-text-fill: #cccccc;
+    -fx-padding: 3 8 3 8;
+    -fx-background-radius: 10;
+    -fx-font-size: 11px;
+}
+
+/* ===== API ===== */
+
+.api-info-label {
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-weight: 500;
+}
+
+.url-error {
+    -fx-border-color: #ff4d4f;
+    -fx-border-width: 2px;
+    -fx-border-radius: 4px;
+}
+
+/* ===== TEXT ===== */
+
+.label {
+    -fx-text-fill: white;
+}
+
+.status-label {
+    -fx-text-fill: #aaaaaa;
+}
+
+/* ===== TEXT AREA (OLD) ===== */
+
+.text-area {
+    -fx-text-fill: #ffffff;
+    -fx-control-inner-background: #1e1e1e;
+    -fx-highlight-fill: #3a86ff;
+    -fx-highlight-text-fill: white;
+}
+
+.text-area .content {
+    -fx-background-color: #1e1e1e;
+}
+
+/* ===== CODE AREA (FINAL FIXED) ===== */
+
+.code-area {
+    -fx-background-color: #1e1e1e;
+    -fx-font-family: "Consolas", monospace;
+    -fx-font-size: 14px;
+}
+
+/* Inner content (IMPORTANT FIX) */
+.code-area .content {
+    -fx-background-color: #1e1e1e;
+}
+
+/* Paragraph background */
+.paragraph-box {
+    -fx-background-color: #1e1e1e;
+}
+
+/* Default text */
+.code-area .text {
+    -fx-fill: #abb2bf;
+}
+
+/* Caret */
+.code-area .caret {
+    -fx-stroke: white;
+}
+
+/* Selection */
+.code-area .selection {
+    -fx-fill: #264f78;
+}
+
+/* Line numbers (FIXED contrast) */
+.lineno {
+    -fx-background-color: #252526;
+    -fx-text-fill: #6a6a6a;
+    -fx-padding: 0 10 0 10;
+}
+
+/* ===== JSON SYNTAX ===== */
+
+.json-string {
+    -fx-fill: #98c379;
+}
+
+.json-keyword {
+    -fx-fill: #56b6c2;
+}
+
+.json-number {
+    -fx-fill: #d19a66;
+}
+
+.json-key {
+    -fx-fill: #c586c0; /* purple */
+}
+
+.json-string {
+    -fx-fill: #98c379; /* green */
+}
+
+.json-number {
+    -fx-fill: #d19a66; /* orange */
+}
+
+.json-keyword {
+    -fx-fill: #56b6c2; /* cyan */
+}
+
+.highlight {
+    -fx-fill: black;
+    -fx-background-color: #FFD54F;
+}
+
+.code-area .highlight {
+    -fx-fill: black;
+    -fx-background-color: #FFD54F;
+}
